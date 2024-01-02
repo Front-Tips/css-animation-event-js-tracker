@@ -1,0 +1,20 @@
+.cat {
+  background: url("../../images/sprite-catwalk.png") 0 0
+    no-repeat;
+  height: 200px;
+  width: 400px;
+  animation: walk-cycle steps(11) 1s;
+}
+
+/* ------------------------ */
+/*        Walk Cycle        */
+/* ------------------------ */
+@keyframes walk-cycle {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: 0 100%;
+  }
+}
